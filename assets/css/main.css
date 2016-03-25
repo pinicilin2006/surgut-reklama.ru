@@ -2104,3 +2104,15 @@
 				}
 
 	}
+
+.contact_left{
+	/*color: #fff;*/
+	font-size: 1.27em;
+   	margin-top: 30%;*/ /* Отступ сверху */
+}
+	ul.contact_left a {
+		color: #fff;
+		position: relative;
+		text-decoration: none;
+		outline: 0;
+	}
