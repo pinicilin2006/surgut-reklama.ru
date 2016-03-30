@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("font-awesome.min.css");
-
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">*/
 /*
 	Miniport by HTML5 UP
 	html5up.net | @n33co
@@ -1858,6 +1858,7 @@
 
 			#top {
 				text-align: left;
+				/*background-image: url(images/fon.jpg);*/
 			}
 
 				#top .image {
@@ -2116,3 +2117,22 @@
 		text-decoration: none;
 		outline: 0;
 	}
+
+ul.list_reklama li {
+	/*font: bold 110% serif;*/
+	font-weight: bold;
+}
+ul.list_reklama a {
+	/*color: #fff;*/
+	position: relative;
+	text-decoration: none;
+	outline: 0;
+}
+
+.price_link {
+	/*color: #fff;*/
+	position: relative;
+	text-decoration: none;
+	outline: 0;
+	font-weight: bold;
+}
