@@ -27,7 +27,7 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		/*list-style: none;*/
 	}
 
 	blockquote, q {
@@ -1829,7 +1829,7 @@
 			}
 
 				.wrapper.first {
-					padding-top: 12em;
+					padding-top: 8em;
 				}
 
 		/* Nav */
@@ -2121,9 +2121,10 @@
 ul.list_reklama li {
 	/*font: bold 110% serif;*/
 	font-weight: bold;
+	font-size: 1.30em;
 }
 ul.list_reklama a {
-	/*color: #fff;*/
+	color: black;
 	position: relative;
 	text-decoration: none;
 	outline: 0;
@@ -2135,4 +2136,17 @@ ul.list_reklama a {
 	text-decoration: none;
 	outline: 0;
 	font-weight: bold;
+}
+#first_block{
+	background-color: white;
+	background-image: url("images/fon.jpg");
+	/*background-position:right;*/
+/*	width: 100%;
+	height: 100%;*/
+}
+@media screen and (max-width: 736px) {
+	#first_block{
+		background-position:right;
+
+	}		
 }
